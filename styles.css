@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color:black;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    background-color: rgb(238, 109, 130);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 16px;
+    max-width: 350px;
+    margin: 0 auto 40px;
+}
+
+.button {
+    font-size: 12px;
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.photo {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
